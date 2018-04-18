@@ -1,0 +1,81 @@
+/** Styles */
+
+@import url("https://fonts.googleapis.com/css?family=Shadows Into Light");
+
+body {
+  background: url(http://www.100bestdesign.com/wp-content/uploads/2013/02/38-Pacific.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: grayscale(100%);
+  
+}
+
+
+
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: yellow;
+  font-family: "Shadows Into Lighte";
+  font-size: 30px;
+}
+
+ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #334;
+  opacity: 0.5;
+  font-family: "Shadows Into Light";
+}
+  
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 10px 18px;
+  text-decoration: none;
+}
+
+li a:hover {
+  opacity: 1;
+  color: white;
+  background-color: blue;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 4em;
+  color: white ;
+  font-family: "Shadows Into Light";
+  
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
