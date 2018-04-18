@@ -22,7 +22,7 @@ body {
   bottom: 8px;
   right: 16px;
   color: yellow;
-  font-family: "Shadows Into Lighte";
+  font-family: "Shadows Into Light";
   font-size: 30px;
 }
 
@@ -56,6 +56,7 @@ li a:hover {
   font-size: 20px;
 }
 
+/* style for welcome message */
 h1 {
   font-size: 4em;
   color: white ;
