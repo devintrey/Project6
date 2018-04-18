@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     "FIJI...",
     "What are you waiting for??",
     "Choose your vacation now",
-    "from This very unimpressive website",
-    "by clicking the -You Ready?- tab.",
+    "from this very unimpressive website",
+    "by clicking the You Ready? tab.",
     "That is, if you can handle it."
   ];
 
