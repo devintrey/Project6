@@ -49,6 +49,8 @@ JS: 1 warning and 4 errors
 README.md
 index.html
 
+Page is a single column responsive design. 
+index.js has a function called typewriter that types sentences on the main page letter by letter, it repeats in a loop.
  
  
  
